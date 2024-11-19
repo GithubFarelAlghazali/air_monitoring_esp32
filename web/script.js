@@ -3,7 +3,7 @@ const suhu = document.getElementById("suhu"),
      lembap = document.getElementById("lembap"),
      gasTxt = document.getElementById("gas"),
      alertBx = document.querySelector(".alert"),
-     ip = "192.168.10.253",
+     ip = "esp32_ip_address",
      endpoint = `http://${ip}`;
 
 function getSuhu() {
