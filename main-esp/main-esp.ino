@@ -5,22 +5,10 @@
 #include <ArduinoJson.h>
 
 DHT dht(23, DHT22);
-WebServer server(80);
+WebServer server(80)
 
-// const char* ssid = "net";
-// const char* password = "12345678";
-
-const char* ssid = "vivo Y22";
-const char* password = "farelkaylaa";
-
-// const char* ssid = "KOST 41";
-// const char* password = "tanyabapakkost";
-
-// const char* ssid = "HUAWEI-143A";
-// const char* password = "orangerti";
-
-// const char* ssid = "Parkiran";
-// const char* password = "UTDI-jogja";
+const char* ssid = "your_wifi_ssid";
+const char* password = "your_wifi_password";
 
 int espLed = 2;
 int buzzer = 22;
